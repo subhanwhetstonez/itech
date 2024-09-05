@@ -2,8 +2,8 @@ import React from "react";
 
 const secwave = () => {
   return (
-    <div className="mt-6 md:mt-0">
-      <div className="grid gap-12">
+    <div className="relative mt-6 md:mt-0">
+      <div className="grid gap-12 lg:mt-[-13rem]">
         <div className="absolute z-0">
           <img src="wave.png" alt="" />
         </div>

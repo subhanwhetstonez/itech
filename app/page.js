@@ -1,9 +1,19 @@
 import Image from "next/image";
 import Banner from "../app/content/Home/banner";
 import SecWave from "../app/content/Home/secwave";
-import Secone from "../app/content/Home/secone";
-import Sectwo from "../app/content/Home/sectwo";
-import Secthree from "../app/content/Home/secthree";
+import Secone from "./content/Home/creativesec";
+import Sectwo from "./content/Home/securitysec";
+import Secthree from "./content/Home/themesec";
+import Integrate from "./content/Home/integration";
+import Screen from "./content/Home/mobilesec";
+import Customer from "./content/Home/customer";
+import Hub from "./content/Home/hubsec";
+import Download from "./content/Home/downloadsec";
+
+export const metadata = {
+  title: "ITech",
+  description: "A Mobile App",
+};
 
 export default function Home() {
   return (
@@ -17,6 +27,16 @@ export default function Home() {
       <Sectwo />
 
       <Secthree />
+
+      <Integrate />
+
+      <Screen />
+
+      <Customer />
+
+      <Hub />
+
+      <Download />
     </div>
   );
 }

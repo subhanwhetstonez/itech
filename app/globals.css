@@ -5,3 +5,10 @@
 *{
   color: #444444;
 }
+
+.background{
+  background-image: url('/header_4_bubble.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

@@ -3,7 +3,7 @@ import Logocomp from "./logo";
 
 const footer = () => {
   return (
-    <div className="grid gap-4">
+    <div className="relative grid gap-4 bg-[#f7f2f2] py-6 z-10">
       <div className="grid md:flex gap-4 justify-around text-center items-center">
         <Logocomp />
         <div>
