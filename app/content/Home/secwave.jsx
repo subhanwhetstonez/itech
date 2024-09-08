@@ -3,7 +3,7 @@ import React from "react";
 const secwave = () => {
   return (
     <div className="relative mt-6 md:mt-0">
-      <div className="grid gap-12 lg:mt-[-13rem]">
+      <div className="grid gap-12 mt-24 lg:mt-[-13rem]">
         <div className="absolute z-0">
           <img src="wave.png" alt="" />
         </div>
@@ -15,7 +15,7 @@ const secwave = () => {
               featured on
             </p>
           </div>
-          <div className="grid md:flex gap-6 items-center justify-around">
+          <div className="grid grid-cols-3 place-items-center place-self-center md:flex gap-6 items-center">
             <img src="TECHNEWS.png" className="w-36 h-6" />
             <img src="hello world.png" className="w-32 h-18" />
             <img src="IT Blog.png" className="w-20 h-6" />
@@ -25,9 +25,9 @@ const secwave = () => {
 
           <hr className="flex w-11/12 h-[2px] m-auto bg-[#44444466]" />
 
-          <div className="items-center grid gap-10">
+          <div className="items-center grid gap-10 mt-10 md:mt-0 md:bg-transparent w-full">
             <div className="text-center grid gap-2">
-              <p className="text-[#6953D3] bg-white w-max m-auto p-2 rounded-md">
+              <p className="text-[#6953D3]  bg-[#6953D31F] md:bg-white w-max m-auto p-2 rounded-md">
                 Notero-Easy Note App
               </p>
               <p className="text-3xl font-bold">

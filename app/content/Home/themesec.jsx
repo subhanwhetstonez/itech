@@ -8,7 +8,7 @@ const secthree = () => {
         <div className="lg:col-start-2 lg:col-span-2  col-span-1 ">
           <img src="section3.png" />
         </div>
-        <div className="px-10 lg:col-start-4">
+        <div className="px-10 md:px-4 lg:col-start-4">
           <div className="flex flex-col text-xs gap-6 py-12  ">
             <p className=" bg-[#6953D31F] text-[#6953D3] p-3 rounded-lg w-fit">
               Beautiful Themes

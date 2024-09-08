@@ -7,7 +7,7 @@ const secone = () => {
         <div className="col-span-1 lg:col-span-2 lg:col-start-2">
           <img src="section1.png" />
         </div>
-        <div className="p-4 lg:col-start-4">
+        <div className="p-10 md:p-4 lg:col-start-4">
           <div className="flex flex-col text-xs gap-6 py-12  ">
             <p className=" bg-[#6953D31F] text-[#6953D3] p-3 rounded-lg w-fit">
               Notero-Easy Note App

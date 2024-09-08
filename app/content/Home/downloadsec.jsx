@@ -5,11 +5,11 @@ const download = () => {
     <div>
       <div className="h-fit">
         <div className="absolute z-0">
-          <img src="wave3.png" alt="" className="" />
+          <img src="wave4.png" alt="" className="" />
         </div>
 
         <div className="relative grid gap-6 pt-48">
-          <div className="bg-[#f7f2f2] mt-[-4rem] md:mt-0 rounded-full w-fit m-auto">
+          <div className="bg-[#f7f2f2] mt-[-4rem] md:mt-0 w-full m-auto">
             <div className="grid text-center justify-center justify-items-center gap-4">
               <p className=" text-4xl font-bold">
                 Ready To

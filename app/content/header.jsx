@@ -20,15 +20,25 @@ const header = () => {
           <Logocomp />
           <div className="menu">
             <ul className="grid md:flex text-center gap-8 font-semibold">
-              <li className="flex gap-2 text-[#6953D3] hover:text-[#6953D3]">
-                Home <img src="arrow.png" width={20} />{" "}
-              </li>
-              <li className="hover:text-[#6953D3] flex gap-2">
-                Pages <img src="arrow.png" width={20} />
-              </li>
-              <li className="hover:text-[#6953D3]">Portfolio</li>
-              <li className="hover:text-[#6953D3]">Blog</li>
-              <li className="hover:text-[#6953D3]">Contact </li>
+              <a href="/">
+                <li className="flex gap-2 text-[#6953D3] hover:text-[#6953D3]">
+                  Home <img src="arrow.png" width={20} />{" "}
+                </li>
+              </a>
+              <a href="/pages">
+                <li className="hover:text-[#6953D3] flex gap-2">
+                  Pages <img src="arrow.png" width={20} />
+                </li>
+              </a>
+              <a href="/portfolio">
+                <li className="hover:text-[#6953D3]">Portfolio</li>
+              </a>
+              <a href="/blog">
+                <li className="hover:text-[#6953D3]">Blog</li>
+              </a>
+              <a href="/contact">
+                <li className="hover:text-[#6953D3]">Contact </li>
+              </a>
             </ul>
           </div>
           <div className="profile flex gap-5 justify-center">
