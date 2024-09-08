@@ -1,5 +1,5 @@
 import React from "react";
-
+import Custominput from "../content/Custominput";
 const page = () => {
   return (
     <div className="relative z-20 bg-white">
@@ -10,12 +10,10 @@ const page = () => {
               Welcome To Itech
             </h1>
             <form className="grid gap-4">
-              <label className="font-bold">Enter Your Full Name </label>
-              <input
-                type="text"
-                placeholder="Your Full Name"
-                className="p-3 rounded-lg"
-                required
+              <Custominput
+                label={"Enter Your Name"}
+                placeholder={"Enter Full Name"}
+                props={{ type: "text", required: true }}
               />
               <label className="font-bold">Enter Your Email </label>
               <input
