@@ -14,7 +14,9 @@ const header = () => {
           <img src="Ellipse 5.png" />
         </div>
         <div className="absolute z-20 lg:top-[39px] lg:left-[43rem] top-3 left-48">
-          <img src="sale.png" alt="" width={560} />
+          <a href="/register">
+            <img src="sale.png" alt="" width={560} />
+          </a>
         </div>
         <div className="relative grid md:flex gap-4 justify-around items-center bg-white p-10 pt-0 mt-[-4rem] lg:mt-[-8rem] rounded-t-3xl">
           <Logocomp />
@@ -43,12 +45,16 @@ const header = () => {
           </div>
           <div className="profile flex gap-5 justify-center">
             <div>
-              <img src="./profile.png" width={30} />
+              <a href="/login">
+                <img src="./profile.png" width={30} />
+              </a>
             </div>
             <div>
-              <button className="border-[1px] p-2 rounded-full border-black text-xs">
-                Join ITech Hub ➔
-              </button>
+              <a href="/register">
+                <button className="border-[1px] p-2 rounded-full border-black text-xs">
+                  Join ITech Hub ➔
+                </button>
+              </a>
             </div>
           </div>
         </div>
