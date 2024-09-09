@@ -1,4 +1,6 @@
 import React from "react";
+import Custominput from "../content/Custominput";
+import CustomFormbutton from "../content/CustomFormButton";
 
 const page = () => {
   return (
@@ -13,28 +15,19 @@ const page = () => {
               Welcome To Itech
             </h1>
             <form className="grid gap-4">
-              <label className="font-bold">Enter Your Email </label>
-              <input
-                type="text"
-                placeholder="Your Registered Email"
-                className="p-3 rounded-lg"
-                required
+              <Custominput
+                label={"Enter Your Email"}
+                placeholder={"Your Registered Email"}
+                required={true}
               />
-              <label className="font-bold">Enter Your Password </label>
-              <input
-                type="text"
-                placeholder="Your Registered Password"
-                className="p-3 rounded-lg"
-                required
+
+              <Custominput
+                label={"Enter Your Password"}
+                placeholder={"Your Registered Password"}
+                required={true}
               />
-              <div className="grid grid-flow-col justify-between">
-                <button
-                  type="submit"
-                  className="bg-[#6953D3] hover:bg-[#7c63fc] m-auto py-3 px-6 rounded-lg text-white"
-                >
-                  Log In
-                </button>
-              </div>
+
+              <CustomFormbutton buttonText={"Login"} />
             </form>
             <div className="mt-2">
               <p>

@@ -1,6 +1,8 @@
 "use client";
 import React from "react";
 import Custominput from "../content/Custominput";
+import CustomFormbutton from "../content/CustomFormButton";
+
 const page = () => {
   return (
     <div className="relative z-20 bg-white">
@@ -14,41 +16,25 @@ const page = () => {
               <Custominput
                 label={"Enter Your Name"}
                 placeholder={"Enter Full Name"}
-                props={{
-                  type: "text",
-                  required: true,
-                  onchange: (key) => console.log("Key", key),
-                }}
+                required={true}
               />
-              <label className="font-bold">Enter Your Email </label>
-              <input
-                type="mail"
-                placeholder="Your Email"
-                className="p-3 rounded-lg"
-                required
+              <Custominput
+                label={"Enter Your Email"}
+                placeholder={"Enter Email Here"}
+                required={true}
               />
-              <label className="font-bold">Enter Your Password </label>
-              <input
-                type="text"
-                placeholder="Your Password"
-                className="p-3 rounded-lg"
-                required
+              <Custominput
+                label={"Enter Your Password"}
+                placeholder={"Enter a Password"}
+                required={true}
               />
-              <label className="font-bold">Re-Type Your Password </label>
-              <input
-                type="text"
-                placeholder="Your Password Again"
-                className="p-3 rounded-lg"
-                required
+              <Custominput
+                label={"Re-Type Your Password"}
+                placeholder={"Enter Password Again"}
+                required={true}
               />
-              <div className="grid grid-flow-col justify-between">
-                <button
-                  type="submit"
-                  className="bg-[#6953D3] hover:bg-[#7c63fc] m-auto py-3 px-6 rounded-lg text-white"
-                >
-                  Register
-                </button>
-              </div>
+
+              <CustomFormbutton buttonText={"Register"} />
             </form>
             <div className="mt-2">
               <p>

@@ -12,7 +12,7 @@ const header = () => {
           <img src="Ellipse 4.png" />
           <img src="Ellipse 5.png" />
         </div>
-        <div className="absolute z-20 lg:top-[39px] lg:left-[43rem] top-3 left-48">
+        <div className="absolute hidden lg:grid z-20 lg:top-[39px] lg:left-[43rem] top-3 left-48">
           <a href="/register">
             <img src="sale.png" alt="" width={560} />
           </a>
