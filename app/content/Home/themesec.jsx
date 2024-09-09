@@ -1,5 +1,6 @@
 import "next/babel";
 import React from "react";
+import Image from "next/image";
 
 const secthree = () => {
   return (

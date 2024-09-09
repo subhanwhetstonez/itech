@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Custominput from "../content/Custominput";
 const page = () => {
@@ -13,7 +14,11 @@ const page = () => {
               <Custominput
                 label={"Enter Your Name"}
                 placeholder={"Enter Full Name"}
-                props={{ type: "text", required: true }}
+                props={{
+                  type: "text",
+                  required: true,
+                  onchange: (key) => console.log("Key", key),
+                }}
               />
               <label className="font-bold">Enter Your Email </label>
               <input
