@@ -50,7 +50,7 @@ const banner = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-center">
+        <div className="md:flex items-center hidden">
           <img src="./banner1.png" />
         </div>
       </div>

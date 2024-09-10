@@ -42,7 +42,7 @@ const header = () => {
               </a>
             </ul>
           </div>
-          <div className="profile flex gap-5 justify-center">
+          <div className="profile flex gap-5 justify-center items-center">
             <div>
               <a href="/login">
                 <img src="./profile.png" width={30} />

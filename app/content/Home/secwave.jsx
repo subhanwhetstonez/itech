@@ -8,7 +8,7 @@ const secwave = () => {
         <div className="absolute z-0">
           <img src="wave.png" alt="" />
         </div>
-        <div className="grid gap-12 mt-14 p-12 lg:p-36 z-10">
+        <div className="grid gap-12 mt-14  lg:p-36 z-10">
           <div>
             <p className="text-xl font-semibold text-center">
               {" "}
@@ -16,7 +16,7 @@ const secwave = () => {
               featured on
             </p>
           </div>
-          <div className="grid grid-cols-3 place-items-center place-self-center md:flex gap-6 items-center">
+          <div className="grid grid-cols-3 place-items-center justify-items-end place-self-center md:flex gap-6 items-center">
             <img src="TECHNEWS.png" className="w-36 h-6" />
             <img src="hello world.png" className="w-32 h-18" />
             <img src="IT Blog.png" className="w-20 h-6" />

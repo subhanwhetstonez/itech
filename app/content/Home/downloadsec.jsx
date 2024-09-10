@@ -4,13 +4,13 @@ import Image from "next/image";
 const download = () => {
   return (
     <div>
-      <div className="h-fit">
-        <div className="absolute z-0">
-          <img src="wave4.png" alt="" className="" />
+      <div className="h-fit lg:mb-16">
+        <div className="absolute w-full z-0">
+          <img src="wave4.png" alt="" className="w-full" />
         </div>
 
         <div className="relative grid gap-6 pt-48">
-          <div className="bg-[#f7f2f2] mt-[-4rem] md:mt-0 w-full m-auto">
+          <div className="bg-[#f7f2f2] mt-[-4rem] md:mb-[-4rem] w-full m-auto">
             <div className="grid text-center justify-center justify-items-center gap-4">
               <p className=" text-4xl font-bold">
                 Ready To

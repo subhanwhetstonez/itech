@@ -15,22 +15,22 @@ const hubsec = () => {
             </span>
           </p>
         </div>
-        <div className="grid md:grid-flow-col gap-6 md:gap-0 items-center justify-items-start justify-center md:justify-around py-12 px-4 m-14 rounded-3xl border-[#00000066] border-[0.1rem]">
-          <div className="flex items-center gap-2">
+        <div className="grid md:grid-flow-col my-8 md:grid-cols-3 gap-4 md:gap-6 md:justify-around py-12 px-4 m-auto w-fit rounded-3xl place-items-center border-[#00000066] border-[0.1rem]">
+          <div className="flex items-center  col-start-2 md:col-start-1">
             <img src="github.png" width={80} />
             <div>
               <p className="text-3xl font-bold">GitHub</p>
               <p className="text-sm">Open Source & Commit Code</p>
             </div>
           </div>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 col-start-2 md:col-start-2">
             <img src="twitter.png" width={60} />
             <div>
               <p className="text-3xl font-bold">Tweeter</p>
               <p className="text-sm">Latest News & Update</p>
             </div>
           </div>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 col-start-2 md:col-start-3">
             <img src="telegram.png" width={60} />
             <div>
               <p className="text-3xl font-bold">Telegram</p>
