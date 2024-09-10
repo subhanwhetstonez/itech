@@ -7,8 +7,50 @@
 }
 
 .background{
-  background-image: url('/header_4_bubble.png');
+  background-image: url('../public/gal1.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+}
+.background1{
+  background-image: url('../public/gal2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background2{
+  background-image: url('../public/gal3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background3{
+  background-image: url('../public/gal4.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background4{
+  background-image: url('../public/gal5.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background5{
+  background-image: url('../public/gal6.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background6{
+  background-image: url('../public/gal7.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background7{
+  background-image: url('../public/gal8.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
