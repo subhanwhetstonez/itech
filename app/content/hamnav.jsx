@@ -14,7 +14,9 @@ const Hamnav = () => {
       <div className="grid grid-flow-col grid-cols-4 p-4 items-center">
         {/* Logo component */}
         <div className="w-fit relative">
-          <Logocomp />
+          <a href="/">
+            <Logocomp />
+          </a>
         </div>
         {/* Login/Register component */}
         <div className="flex w-full m-auto items-center ml-12 gap-2 relative justify-center col-span-2">

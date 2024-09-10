@@ -8,11 +8,21 @@ const footer = () => {
         <Logocomp />
         <div>
           <ul className="grid md:flex gap-4">
-            <li>Home</li>
-            <li>Pages</li>
-            <li>Portfolio</li>
-            <li>Blog</li>
-            <li>Contact</li>
+            <a href="/">
+              <li>Home</li>
+            </a>
+            <a href="/pages">
+              <li>Pages</li>
+            </a>
+            <a href="/portfolio">
+              <li>Portfolio</li>
+            </a>
+            <a href="/blog">
+              <li>Blog</li>
+            </a>
+            <a href="/contact">
+              <li>Contact</li>
+            </a>
           </ul>
         </div>
         <div className="flex gap-3">

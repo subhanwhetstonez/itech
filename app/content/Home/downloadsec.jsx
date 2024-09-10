@@ -24,13 +24,13 @@ const download = () => {
               </p>
             </div>
             <div className="grid md:grid-flow-col gap-6 justify-center w-3/4 m-auto mt-6">
-              <button className="flex gap-1 items-center p-3 w-max rounded-full bg-[#6953D3] text-white">
+              <button className="flex gap-1 items-center p-3 w-max rounded-full bg-[#6953D3] hover:bg-[#7c63fc] text-white">
                 <img src="./Apple.png" width={24} />{" "}
                 <span className="text-white text-sm">
                   | Download App on app store{" "}
                 </span>
               </button>
-              <button className="flex gap-1 items-center p-3 w-max rounded-full border-[0.12rem] border-[#000000]">
+              <button className="flex gap-1 items-center p-3 w-max rounded-full border-[0.12rem] hover:border-[#6953D3] border-[#000000]">
                 <img src="./GooglePlay.png" width={24} />{" "}
                 <span className="text-sm">| Download App on Google play</span>
               </button>

@@ -41,7 +41,7 @@ const secthree = () => {
             </div>
 
             <div>
-              <button className="bg-[#6953D3] py-2 px-4 rounded-full text-white text-sm">
+              <button className="bg-[#6953D3] hover:bg-[#7c63fc] py-2 px-4 rounded-full text-white text-sm">
                 Discovery Now
               </button>
             </div>

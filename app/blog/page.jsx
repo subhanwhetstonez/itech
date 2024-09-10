@@ -6,7 +6,7 @@ const page = () => {
       <section class="bg-white py-6 sm:py-8 lg:py-12">
         <div class="mx-auto max-w-screen-xl px-4 md:px-8">
           <div class="mb-10 md:mb-16">
-            <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">
+            <h2 class="mb-4 text-center text-2xl font-bold text-[#6953D3] md:mb-6 lg:text-3xl">
               Most Recent Posts
             </h2>
 
@@ -36,7 +36,7 @@ const page = () => {
                 <h2 class="text-xl font-bold text-gray-800">
                   <a
                     href="#"
-                    class="transition duration-100 hover:text-rose-500 active:text-rose-600"
+                    class="transition duration-100 hover:text-[#6953D3] active:text-[#6953D3]"
                   >
                     The Pines and the Mountains
                   </a>
@@ -50,7 +50,7 @@ const page = () => {
                 <div>
                   <a
                     href="#"
-                    class="font-semibold text-rose-500 transition duration-100 hover:text-rose-600 active:text-rose-700"
+                    class="font-semibold text-[#6953D3] transition duration-100 hover:text-[#6953D3] active:text-[#6953D3]"
                   >
                     Read more
                   </a>
@@ -77,7 +77,7 @@ const page = () => {
                 <h2 class="text-xl font-bold text-gray-800">
                   <a
                     href="#"
-                    class="transition duration-100 hover:text-rose-500 active:text-rose-600"
+                    class="transition duration-100 hover:text-[#6953D3] active:text-[#6953D3]"
                   >
                     The Coding Mania
                   </a>
@@ -91,7 +91,7 @@ const page = () => {
                 <div>
                   <a
                     href="#"
-                    class="font-semibold text-rose-500 transition duration-100 hover:text-rose-600 active:text-rose-700"
+                    class="font-semibold text-[#6953D3] transition duration-100 hover:text-[#6953D3] active:text-[#6953D3]"
                   >
                     Read more
                   </a>
@@ -118,7 +118,7 @@ const page = () => {
                 <h2 class="text-xl font-bold text-gray-800">
                   <a
                     href="#"
-                    class="transition duration-100 hover:text-rose-500 active:text-rose-600"
+                    class="transition duration-100 hover:text-[#6953D3] active:text-[#6953D3]"
                   >
                     Architectural Warfare
                   </a>
@@ -132,7 +132,7 @@ const page = () => {
                 <div>
                   <a
                     href="#"
-                    class="font-semibold text-rose-500 transition duration-100 hover:text-rose-600 active:text-rose-700"
+                    class="font-semibold text-[#6953D3] transition duration-100 hover:text-[#6953D3] active:text-[#6953D3]"
                   >
                     Read more
                   </a>
@@ -159,7 +159,7 @@ const page = () => {
                 <h2 class="text-xl font-bold text-gray-800">
                   <a
                     href="#"
-                    class="transition duration-100 hover:text-rose-500 active:text-rose-600"
+                    class="transition duration-100 hover:text-[#6953D3] active:text-[#6953D3]"
                   >
                     Blues in Architechture
                   </a>
@@ -173,7 +173,7 @@ const page = () => {
                 <div>
                   <a
                     href="#"
-                    class="font-semibold text-rose-500 transition duration-100 hover:text-rose-600 active:text-rose-700"
+                    class="font-semibold text-[#6953D3] transition duration-100 hover:text-[#6953D3] active:text-[#6953D3]"
                   >
                     Read more
                   </a>

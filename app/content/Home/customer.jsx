@@ -38,7 +38,7 @@ const customer = () => {
         </div>
         <div>
           <div className="grid md:flex gap-6 mt-4">
-            <button className=" py-2 px-4 text-sm w-max rounded-full bg-[#6953D3] text-white">
+            <button className=" py-2 px-4 text-sm w-max rounded-full bg-[#6953D3] hover:bg-[#7c63fc] text-white">
               See Reviews on app store
             </button>
             <div className="flex items-center gap-2">

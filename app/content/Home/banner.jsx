@@ -24,7 +24,7 @@ const banner = () => {
           </div>
 
           <div className="grid md:flex gap-8 mt-4">
-            <button className="flex gap-1 items-center p-3 rounded-full bg-[#6953D3] text-white">
+            <button className="flex gap-1 items-center p-3 rounded-full bg-[#6953D3] hover:bg-[#7c63fc] text-white">
               <img src="./Apple.png" width={24} />{" "}
               <span className="text-white">| Download App </span>
             </button>
