@@ -2,6 +2,11 @@ import React from "react";
 import Image from "next/image";
 import Logocomp from "../content/logo";
 
+export const metadata = {
+  title: "ITech| Portfolio",
+  description: "Notepad app",
+};
+
 const page = () => {
   return (
     <div className="relative z-10 bg-white p-5 md:p-10 lg:px-48">

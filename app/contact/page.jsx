@@ -2,6 +2,11 @@ import React from "react";
 import Custominput from "../content/Custominput";
 import CustomFormbutton from "../content/CustomFormButton";
 
+export const metadata = {
+  title: "ITech| Contact",
+  description: "Notepad app",
+};
+
 const page = () => {
   return (
     <div className="relative bg-white z-20">

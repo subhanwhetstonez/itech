@@ -1,6 +1,11 @@
 import React from "react";
 import Image from "next/image";
 
+export const metadata = {
+  title: "ITech| Pages ",
+  description: "Notepad app",
+};
+
 const page = () => {
   return (
     <div className="relative bg-white">

@@ -1,5 +1,10 @@
 import React from "react";
 
+export const metadata = {
+  title: "ITech| Blog",
+  description: "Notepad app",
+};
+
 const page = () => {
   return (
     <div className="relative bg-white z-20 ">
