@@ -21,11 +21,11 @@ const secthree = () => {
                 Dark Theme{" "}
               </span>{" "}
             </p>
-            <p className="text-[#44444499] leading-8  text-sm">
+            <p className="text-[#44444499]  text-sm">
               Apply Notero’s elegant themes to your taste. Dark themes work
               excellently for those who prefer distraction-free mode.
             </p>
-            <div>
+            <div className="leading-6">
               <li className="text-[#44444499] hover:text-black">
                 Filtering notes using matched keywords
               </li>

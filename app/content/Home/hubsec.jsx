@@ -17,24 +17,24 @@ const hubsec = () => {
         </div>
         <div className="grid md:grid-flow-col my-8 md:grid-cols-3 gap-4 md:gap-6 md:justify-around py-12 px-4 m-auto w-fit rounded-3xl place-items-center border-[#00000066] border-[0.1rem]">
           <div className="flex items-center  col-start-2 md:col-start-1">
-            <img src="github.png" width={80} />
+            <img src="github.png" width={70} />
             <div>
               <p className="text-3xl font-bold">GitHub</p>
-              <p className="text-sm">Open Source & Commit Code</p>
+              <p className="text-xs">Open Source & Commit Code</p>
             </div>
           </div>
           <div className="flex items-center gap-2 col-start-2 md:col-start-2">
-            <img src="twitter.png" width={60} />
+            <img src="twitter.png" width={50} />
             <div>
               <p className="text-3xl font-bold">Tweeter</p>
-              <p className="text-sm">Latest News & Update</p>
+              <p className="text-xs">Latest News & Update</p>
             </div>
           </div>
           <div className="flex items-center gap-2 col-start-2 md:col-start-3">
-            <img src="telegram.png" width={60} />
+            <img src="telegram.png" width={50} />
             <div>
               <p className="text-3xl font-bold">Telegram</p>
-              <p className="text-sm">Channel For Community</p>
+              <p className="text-xs">Channel For Community</p>
             </div>
           </div>
         </div>

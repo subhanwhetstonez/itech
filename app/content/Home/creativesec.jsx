@@ -8,7 +8,7 @@ const secone = () => {
           <img src="section1.png" />
         </div>
         <div className="p-10 md:p-4 lg:col-start-4">
-          <div className="flex flex-col text-xs gap-6 py-12  ">
+          <div className="flex flex-col text-xs gap-5 py-12  ">
             <p className=" bg-[#6953D31F] text-[#6953D3] p-3 rounded-lg w-fit">
               Notero-Easy Note App
             </p>
@@ -19,7 +19,7 @@ const secone = () => {
                 Creative{" "}
               </span>{" "}
             </p>
-            <p className="text-[#44444499] leading-8  text-sm">
+            <p className="text-[#44444499]   text-sm">
               Stay focused and productive with a clean clutter-free note space.
               the flexible ways to organize your notes: hashtags , nested
               notebooks , pining notes to the top of the note list, ect.

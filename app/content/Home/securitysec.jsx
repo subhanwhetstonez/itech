@@ -22,12 +22,12 @@ const Sectwo = () => {
               Better Note Management
             </p>
             <p className="text-4xl font-bold">
-              Your Notes{" "}
+              Your Notes <br />
               <span className="bg-gradient-to-r from-[#6953D3] via-[#8566F1] via-[#A14EEE] to-[#F98085] text-transparent bg-clip-text p-1">
                 Security
               </span>
             </p>
-            <p className="text-[#44444499] leading-8 text-sm">
+            <p className="text-[#44444499]  text-sm">
               Automatically syncs across all your devices. You can also access
               and write notes without internet connection.
             </p>
@@ -43,7 +43,7 @@ const Sectwo = () => {
                     className="flex justify-between items-center w-full"
                   >
                     <div className="">
-                      <p className="flex justify-center items-center dark:text-white font-medium text-sm leading-6 md:leading-4 text-[#4B2FD2]">
+                      <p className="flex justify-center items-center font-medium text-sm leading-6 md:leading-4 text-[#4B2FD2]">
                         Create And Save Your Notes With Multi-Media
                       </p>
                     </div>
@@ -65,7 +65,7 @@ const Sectwo = () => {
                     id="menu"
                     className={`mt-6 w-full ${openFaq === 1 ? "" : "hidden"}`}
                   >
-                    <p className="text-sm leading-6 text-[#44444499] dark:text-gray-300 font-normal">
+                    <p className="text-sm leading-6 text-[#44444499] font-normal">
                       Images, videos, PDFs and audio files are supported. Create
                       math expressions and diagrams directly from the app. Take
                       photos with the mobile app and save them to a note.
@@ -82,7 +82,7 @@ const Sectwo = () => {
                     className="flex justify-between items-center w-full"
                   >
                     <div className="">
-                      <p className="flex justify-center items-center dark:text-white font-medium text-sm leading-6 md:leading-4 text-gray-800">
+                      <p className="flex justify-center items-center  font-medium text-sm leading-6 md:leading-4 text-gray-800">
                         Web Clipper Extension
                       </p>
                     </div>
@@ -104,7 +104,7 @@ const Sectwo = () => {
                     id="menu"
                     className={`mt-6 w-full ${openFaq === 2 ? "" : "hidden"}`}
                   >
-                    <p className="text-sm leading-6 text-[#44444499] dark:text-gray-300 font-normal">
+                    <p className="text-sm leading-6 text-[#44444499] font-normal">
                       Images, videos, PDFs and audio files are supported. Create
                       math expressions and diagrams directly from the app. Take
                       photos with the mobile app and save them to a note.
@@ -121,7 +121,7 @@ const Sectwo = () => {
                     className="flex justify-between items-center w-full"
                   >
                     <div className="">
-                      <p className="flex justify-center items-center dark:text-white font-medium text-sm leading-6 md:leading-4 text-gray-800">
+                      <p className="flex justify-center items-center  font-medium text-sm leading-6 md:leading-4 text-gray-800">
                         Protect Your Note With Lock
                       </p>
                     </div>
@@ -143,7 +143,7 @@ const Sectwo = () => {
                     id="menu"
                     className={`mt-6 w-full ${openFaq === 3 ? "" : "hidden"}`}
                   >
-                    <p className="text-sm leading-6 text-[#44444499] dark:text-gray-300 font-normal">
+                    <p className="text-sm leading-6 text-[#44444499] font-normal">
                       Images, videos, PDFs and audio files are supported. Create
                       math expressions and diagrams directly from the app. Take
                       photos with the mobile app and save them to a note.
