@@ -10,7 +10,7 @@ const download = () => {
         </div>
 
         <div className="relative grid gap-6 pt-48">
-          <div className="bg-[#f7f2f2] mt-[-6rem] lg:rounded-full lg:w-fit md:mb-[-4rem] w-full m-auto">
+          <div className="bg-[#f7f2f2] lg:bg-transparent mt-[-6rem] lg:rounded-full lg:w-fit md:mb-[-4rem] w-full m-auto">
             <div className="grid text-center justify-center justify-items-center gap-4">
               <p className=" text-4xl font-bold">
                 Ready To
